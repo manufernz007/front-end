@@ -181,7 +181,7 @@ Although its syntax closely resembles that of SGML, HTML5 has abandoned any atte
 
         <div class="slide" id="table-of-contents">
           <header><h1>Today, we will cover...</h1></header>
-          <section>
+          <section data-build>
             <ul id="toc-list">
             </ul>
           </section>
@@ -2944,54 +2944,7 @@ window.addEventListener('<em>popstate</em>', function(event) {
         </div>
 
 
-        <div class="slide" id="browser-support">
-          <header><h1>See it today?</h1></header>
-          <section>
-            <ul class="bullets">
-              <li>Modern Browsers</li>
-              <li>Mobile Browsers</li>
-              <li>Chrome extensions/Firefox Jetpack/Safari extensions</li>
-            </ul>
-          </section>
-        </div>
-
-
-        <div class="slide" id="chrome-frame">
-          <header><h1>Chrome Frame</h1></header>
-          <section>
-            <ul class="bullets">
-              <li>Minimal effort for bringing IE6, 7 and 8 up to the latest HTML5 technologies</li>
-              <li>Two ways to get your websites ready for Chrome Frame:</li>
-            </ul>
-            <p>Client side:</p>
-            <pre>&lt;meta http-equiv="X-UA-Compatible" content="chrome=1"></pre>
-            <p>Server side:</p>
-            <pre>X-UA-Compatible: chrome=1</pre>
-            <p style="font-size: 30px">
-              Try to load this presentation in IE!
-            </p>
-          </section>
-        </div>
-
-
-        <div class="slide" id="formula-outro-slide">
-          <section class="middle formula">
-            HTML5 ~=
-            <span class="html">HTML</span>
-            +
-            <span class="css">CSS</span>
-            +
-            <span class="js">JS</span>
-            <p>
-              HTML5 <em class="stroke">=</em> Next Generation Features for Modern Web Development
-            </p>
-            <p class="resource-link">
-              <a href="http://slides.html5rocks.com">http://slides.html5rocks.com</a>
-              <a href="http://www.html5rocks.com">http://www.html5rocks.com</a>
-            </p>
-          </section>
-        </div>
-
+       
         <div id="speaker-note" class="invisible" style="display: none;"></div>
         <aside id="help" class="sidebar invisible" style="display: none;">
           <table>
@@ -3032,18 +2985,10 @@ window.addEventListener('<em>popstate</em>', function(event) {
     </div> <!-- slides -->
     </div>
 
-    <!--[if lt IE 9]>
-    <script
-      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">
-    </script>
-    <script>CFInstall.check({ mode: "overlay" });</script>
-    <![endif]-->
-
     <script src="src/prettify/prettify.js" onload="prettyPrint();" defer></script>
     <script src="js/utils.js"></script>
     <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
     <script>
-      // Check if new appcache is available, load it, and reload page.
       if (window.applicationCache) {
         window.applicationCache.addEventListener('updateready', function(e) {
           if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
