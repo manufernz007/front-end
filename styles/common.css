@@ -170,35 +170,26 @@ video {
   letter-spacing: 0;
   bottom: 10px;
   position: relative;
-  border-radius: 10px;
+ 
   background: white;
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .css {
-  background: #ff4;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff4), to(#ffa));
-  background-image: -webkit-linear-gradient(top, #ff4, #ffa);
-  background-image:    -moz-linear-gradient(top, #ff4, #ffa);
-  background-image:      -o-linear-gradient(top, #ff4, #ffa);
-  background-image:         linear-gradient(top, #ff4, #ffa);
+	 border-radius: 500px;
+  background: #6A5ACD;
+ 
 }
 .js {
-  background: #4f4;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#4f4), to(#afa));
-  background-image: -webkit-linear-gradient(top, #4f4, #afa);
-  background-image:    -moz-linear-gradient(top, #4f4, #afa);
-  background-image:      -o-linear-gradient(top, #4f4, #afa);
-  background-image:         linear-gradient(top, #4f4, #afa);
+ border-radius: 30px;
+  background: #9ACD32;
+  
 }
 .html {
-  background: #e88;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#e88), to(#fee));
-  background-image: -webkit-linear-gradient(top, #e88, #fee);
-  background-image:    -moz-linear-gradient(top, #e88, #fee);
-  background-image:      -o-linear-gradient(top, #e88, #fee);
-  background-image:         linear-gradient(top, #e88, #fee);
+  border-radius: 80px;
+  background: #ed4732;
+
 }
 .key {
   font-family: "Lucida console", Monospace, Arial;
